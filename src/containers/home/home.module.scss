@@ -7,42 +7,6 @@
     li {
       list-style: none;
       margin-bottom: 15px;
-
-      .item {
-        border: solid 1px #eee;
-        box-shadow: 0 10px 15px 0 #eee;
-        padding: 30px;
-
-        .content {
-          display: flex;
-          width:100%;
-          align-content: flex-start;
-          img{
-            margin-right:30px;
-            width:300px;
-            flex-grow: 0;
-            flex-basis: auto;
-          }
-          .data {
-            flex-grow: 1;
-            width: auto;
-            h2{
-              width:100%;
-              font-size:18px;
-              display:flex;
-              justify-content: space-between;
-            }
-          }
-
-        }
-      }
-
-      .footer {
-        width: 100%;
-        margin-top: 15px;
-        display: flex;
-        justify-content: space-between;
-      }
     }
   }
 }

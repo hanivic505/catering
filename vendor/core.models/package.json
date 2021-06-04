@@ -1,0 +1,36 @@
+{
+  "name": "core.models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Hany Darwish",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "",
+  "dependencies": {
+    "@date-io/moment": "1.x",
+    "@google-cloud/storage": "^5.8.1",
+    "@material-ui/pickers": "^3.3.10",
+    "axios": "^0.21.1",
+    "inversify": "^5.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "pump": "^3.0.0",
+    "pumpify": "^2.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/node": "^15.0.1",
+    "@types/pump": "^1.1.1"
+  }
+}
