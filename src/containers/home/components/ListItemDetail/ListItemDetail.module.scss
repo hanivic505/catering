@@ -6,16 +6,15 @@
   .content {
     display: flex;
     width: 100%;
+    flex-direction: column;
     align-content: flex-start;
     img {
-      margin-right: 30px;
-      width: 300px;
-      flex-grow: 0;
-      flex-basis: auto;
+      margin: 0 auto;
+      width: 50%;
+      display: block;
     }
     .data {
-      flex-grow: 1;
-      width: auto;
+      margin-top: 30px;
       display: flex;
       flex-direction: column;
       h2 {
@@ -25,6 +24,7 @@
         justify-content: space-between;
       }
       .description {
+        margin-top: 15px;
         flex-grow: 1;
       }
     }

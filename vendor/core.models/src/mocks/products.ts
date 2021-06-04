@@ -180,8 +180,9 @@ export const productList: IProduct[] = [
     product_image: "https://via.placeholder.com/500x300/f98e71/fff&text=Image",
     product: "Caterwings Breakfast Package: Bagels and OJ",
     product_description: "Caterwings Breakfast Package: Bagels and OJ",
-    product_description_long: "",
-    price: 7,
+    product_description_long:
+      "Caterwings Breakfast Package: Bagels and OJ Caterwings Breakfast Package: Bagels and OJ Caterwings Breakfast Package: Bagels and OJ Caterwings Breakfast Package: Bagels and OJ Caterwings Breakfast Package: Bagels and OJ Caterwings Breakfast Package: Bagels and OJ Caterwings Breakfast Package: Bagels and OJ",
+    price: 750,
     price_gross: 840,
     price_net: 700,
     toppings: [

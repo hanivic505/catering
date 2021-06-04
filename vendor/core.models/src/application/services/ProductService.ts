@@ -13,4 +13,11 @@ export class ProductService implements IProductService {
       }, 300);
     });
   }
+  get(id: string): Promise<IProduct | null> {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(productList.filter((p) => p.product_id === id)[0]);
+      }, 300);
+    });
+  }
 }
