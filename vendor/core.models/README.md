@@ -3,7 +3,7 @@
 ## Install/Run steps
 
 ```
-cd vendeor/core.models
+cd vendor/core.models
 yarn
 yarn build
 yarn link

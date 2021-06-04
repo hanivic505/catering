@@ -50,7 +50,7 @@ This application depends on `core.models` a sub-module that handle API requests 
 ## Install/Run (Sub-Module) steps
 
 ```
-cd vendeor/core.models
+cd vendor/core.models
 yarn
 yarn build
 yarn link
