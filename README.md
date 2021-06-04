@@ -42,3 +42,20 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Dependencies
+
+This application depends on `core.models` a sub-module that handle API requests and data transformation and core business logic, can be installed and run as follow
+
+## Install/Run (Sub-Module) steps
+
+```
+cd vendeor/core.models
+yarn
+yarn build
+yarn link
+cd ../..
+yarn link core.models
+yarn
+yarn start
+```
